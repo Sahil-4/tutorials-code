@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: #dc143c;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}

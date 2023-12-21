@@ -1,0 +1,25 @@
+
+.container_main {
+  width: 620px;
+  height: 480px;
+  background-color: #C8FFBE;
+  padding: 16px;
+}
+
+.container_main h1,
+.container_main h2 {
+  color: #436436;
+}
+
+.container_main button {
+  width: 48px;
+  background: #436436;
+  padding: 4px;
+}
+
+.container_main button img {
+  width: 100%;
+  margin-left: -1px;
+  margin-top: 2px;
+}
+
