@@ -1,10 +1,9 @@
 import NewsItem from "./NewsItem";
 
-function Container({ newsArticles=[] }) {
-
+function Container({ newsArticle }) {
   return (
     <div className="news-container">
-      {newsArticles.map((article, index) => (
+      {newsArticle.map((article, index) => (
         <NewsItem key={index + article} article={article} />
       ))}
     </div>

@@ -1,1 +1,53 @@
 /* App css */
+
+@import url("https://fonts.googleapis.com/css2?family=Kalnia&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Kalnia', serif;
+  margin: 12px;
+  padding: 12px;
+}
+
+.container {
+  margin: 12px 0;
+}
+
+.container ul {
+  margin: 12px 24px;
+}
+
+.container ul li {
+  height: 28px;
+  min-width: max-content;
+  padding: 3px;
+  margin: 12px;
+  outline: 2px solid #000000;
+}
+
+.container button {
+  height: 32px;
+  padding: 0 12px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.incorrect {
+  background: #ff0000;
+}
+
+.correct {
+  height: 32px !important;
+  padding: 5px !important;
+  background: #00ff00;
+}

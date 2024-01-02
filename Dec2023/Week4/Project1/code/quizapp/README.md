@@ -1,4 +1,3 @@
-# Quiz app | React js 
-
+# Quiz App | React js 
 
 
