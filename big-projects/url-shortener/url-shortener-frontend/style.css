@@ -1,0 +1,45 @@
+:root {
+    --text: #F4FFF8;
+    --navbar: #1D1128;
+    --bg: #000000;
+    --secondary: #090C02;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 1rem;
+    color: var(--text);
+    background: var(--bg);
+}
+
+#root {
+    height: 100%;
+}
+
+.text {
+    color: inherit;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}

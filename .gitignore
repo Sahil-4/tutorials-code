@@ -2,3 +2,6 @@
 *.mp4
 node_modules
 temp.*
+.env
+config.*
+*.config

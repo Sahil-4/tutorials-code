@@ -1,0 +1,39 @@
+/* App css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bmiContainer {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputGroup {
+    margin: 10px 0;
+}
+
+.inputField {
+    margin: 10px;
+    padding: 5px;
+}
+
+.calculateButton {
+    margin: 10px;
+    padding: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.bmiResult {
+    margin-top: 10px;
+}

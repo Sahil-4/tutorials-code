@@ -1,0 +1,51 @@
+/* App css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.digitalClockContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #282c34;
+    color: #61dafb;
+}
+
+.clock {
+    font-size: 64px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 2px solid #61dafb;
+    border-radius: 10px;
+    padding: 10px;
+    animation: glow 2s linear infinite;
+}
+
+.hour,
+.minute,
+.seconds {
+    margin: 0 5px;
+}
+
+@keyframes glow {
+    0% {
+        border-color: #61dafb;
+        box-shadow: 0 0 10px #61dafb, 0 0 20px #61dafb;
+    }
+
+    50% {
+        border-color: #31a4d5;
+        box-shadow: 0 0 10px #31a4d5, 0 0 20px #31a4d5;
+    }
+
+    100% {
+        border-color: #61dafb;
+        box-shadow: 0 0 10px #61dafb, 0 0 20px #61dafb;
+    }
+}
+
+/* done */
